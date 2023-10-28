@@ -14,6 +14,8 @@
 		4C82DF5F2AD93B520096DB46 /* MyHealthAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82DF5E2AD93B520096DB46 /* MyHealthAppTests.swift */; };
 		4C82DF692AD93B520096DB46 /* MyHealthAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82DF682AD93B520096DB46 /* MyHealthAppUITests.swift */; };
 		4C82DF6B2AD93B520096DB46 /* MyHealthAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82DF6A2AD93B520096DB46 /* MyHealthAppUITestsLaunchTests.swift */; };
+		4C82DF792AD97C490096DB46 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82DF782AD97C490096DB46 /* HealthKitManager.swift */; };
+		4C82DF7B2ADD4CE30096DB46 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82DF7A2ADD4CE30096DB46 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C82DF4A2AD93B480096DB46 /* MyHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C82DF4A2AD93B480096DB46 /* MyHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MyHealthApp.app; path = "/Users/ritab/iCloudDrive/IMØ/MASTER/DAT254/MyHealthApp/build/Debug-iphoneos/MyHealthApp.app"; sourceTree = "<absolute>"; };
 		4C82DF4D2AD93B480096DB46 /* MyHealthAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthAppApp.swift; sourceTree = "<group>"; };
 		4C82DF4F2AD93B480096DB46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C82DF512AD93B520096DB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C82DF542AD93B520096DB46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4C82DF5A2AD93B520096DB46 /* MyHealthAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHealthAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C82DF5A2AD93B520096DB46 /* MyHealthAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyHealthAppTests.xctest; path = "/Users/ritab/iCloudDrive/IMØ/MASTER/DAT254/MyHealthApp/build/Debug-iphoneos/MyHealthAppTests.xctest"; sourceTree = "<absolute>"; };
 		4C82DF5E2AD93B520096DB46 /* MyHealthAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthAppTests.swift; sourceTree = "<group>"; };
-		4C82DF642AD93B520096DB46 /* MyHealthAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHealthAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C82DF642AD93B520096DB46 /* MyHealthAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyHealthAppUITests.xctest; path = "/Users/ritab/iCloudDrive/IMØ/MASTER/DAT254/MyHealthApp/build/Debug-iphoneos/MyHealthAppUITests.xctest"; sourceTree = "<absolute>"; };
 		4C82DF682AD93B520096DB46 /* MyHealthAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthAppUITests.swift; sourceTree = "<group>"; };
 		4C82DF6A2AD93B520096DB46 /* MyHealthAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C82DF772AD93B720096DB46 /* MyHealthApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyHealthApp.entitlements; sourceTree = "<group>"; };
+		4C82DF782AD97C490096DB46 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		4C82DF7A2ADD4CE30096DB46 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,24 +82,16 @@
 				4C82DF4C2AD93B480096DB46 /* MyHealthApp */,
 				4C82DF5D2AD93B520096DB46 /* MyHealthAppTests */,
 				4C82DF672AD93B520096DB46 /* MyHealthAppUITests */,
-				4C82DF4B2AD93B480096DB46 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		4C82DF4B2AD93B480096DB46 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C82DF4A2AD93B480096DB46 /* MyHealthApp.app */,
-				4C82DF5A2AD93B520096DB46 /* MyHealthAppTests.xctest */,
-				4C82DF642AD93B520096DB46 /* MyHealthAppUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4C82DF4C2AD93B480096DB46 /* MyHealthApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C82DF772AD93B720096DB46 /* MyHealthApp.entitlements */,
 				4C82DF4D2AD93B480096DB46 /* MyHealthAppApp.swift */,
+				4C82DF782AD97C490096DB46 /* HealthKitManager.swift */,
+				4C82DF7A2ADD4CE30096DB46 /* Extensions.swift */,
 				4C82DF4F2AD93B480096DB46 /* ContentView.swift */,
 				4C82DF512AD93B520096DB46 /* Assets.xcassets */,
 				4C82DF532AD93B520096DB46 /* Preview Content */,
@@ -134,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C82DF6E2AD93B520096DB46 /* Build configuration list for PBXNativeTarget "MyHealthApp" */;
 			buildPhases = (
+				B83554909687DDCCD0D418C8 /* [CP] Check Pods Manifest.lock */,
 				4C82DF462AD93B480096DB46 /* Sources */,
 				4C82DF472AD93B480096DB46 /* Frameworks */,
 				4C82DF482AD93B480096DB46 /* Resources */,
@@ -151,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C82DF712AD93B520096DB46 /* Build configuration list for PBXNativeTarget "MyHealthAppTests" */;
 			buildPhases = (
+				E0DE56223947F5093458477C /* [CP] Check Pods Manifest.lock */,
 				4C82DF562AD93B520096DB46 /* Sources */,
 				4C82DF572AD93B520096DB46 /* Frameworks */,
 				4C82DF582AD93B520096DB46 /* Resources */,
@@ -169,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C82DF742AD93B520096DB46 /* Build configuration list for PBXNativeTarget "MyHealthAppUITests" */;
 			buildPhases = (
+				1D0E988679F0E7EE51BC9B3E /* [CP] Check Pods Manifest.lock */,
 				4C82DF602AD93B520096DB46 /* Sources */,
 				4C82DF612AD93B520096DB46 /* Frameworks */,
 				4C82DF622AD93B520096DB46 /* Resources */,
@@ -215,7 +215,7 @@
 				Base,
 			);
 			mainGroup = 4C82DF412AD93B470096DB46;
-			productRefGroup = 4C82DF4B2AD93B480096DB46 /* Products */;
+			productRefGroup = 4C82DF412AD93B470096DB46;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -252,6 +252,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D0E988679F0E7EE51BC9B3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHealthApp-MyHealthAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83554909687DDCCD0D418C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHealthApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0DE56223947F5093458477C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHealthAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C82DF462AD93B480096DB46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +328,8 @@
 			files = (
 				4C82DF502AD93B480096DB46 /* ContentView.swift in Sources */,
 				4C82DF4E2AD93B480096DB46 /* MyHealthAppApp.swift in Sources */,
+				4C82DF792AD97C490096DB46 /* HealthKitManager.swift in Sources */,
+				4C82DF7B2ADD4CE30096DB46 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,23 +490,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyHealthApp/MyHealthApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyHealthApp/Preview Content\"";
 				DEVELOPMENT_TEAM = N47R988D8Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app needs access to your health data in order to work";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app needs access to your health data in order to work";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.MyHealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ex.MyHealthApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,23 +523,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyHealthApp/MyHealthApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyHealthApp/Preview Content\"";
 				DEVELOPMENT_TEAM = N47R988D8Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app needs access to your health data in order to work";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app needs access to your health data in order to work";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.MyHealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ex.MyHealthApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
